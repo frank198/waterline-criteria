@@ -1,6 +1,6 @@
 {
-  "name": "waterline-criteria",
-  "version": "2.0.0",
+  "name": "waterlineCriteria",
+  "version": "2.0.1",
   "description": "Utility library for working with Waterline criterias.  Especially useful when building Sails adapters for key/value databases.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,27 @@
   "license": "MIT",
   "dependencies": {
     "flaverr": "^1.0.0",
-    "lodash": "3.10.1"
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.contains": "^2.4.3",
+    "lodash.every": "^4.6.0",
+    "lodash.filter": "^4.6.0",
+    "lodash.foreach": "^4.5.0",
+    "lodash.isboolean": "^3.0.3",
+    "lodash.isdate": "^4.0.1",
+    "lodash.isfunction": "^3.0.8",
+    "lodash.isnull": "^3.0.0",
+    "lodash.isnumber": "^3.0.3",
+    "lodash.isobject": "^3.0.2",
+    "lodash.isregexp": "^4.0.1",
+    "lodash.isstring": "^4.0.1",
+    "lodash.isundefined": "^3.0.1",
+    "lodash.map": "^4.6.0",
+    "lodash.omit": "^4.5.0",
+    "lodash.pick": "^4.4.0",
+    "lodash.pluck": "^3.1.2",
+    "lodash.reduce": "^4.6.0",
+    "lodash.slice": "^4.2.0",
+    "lodash.some": "^4.6.0"
   },
   "devDependencies": {
     "mocha": "3.0.2"
